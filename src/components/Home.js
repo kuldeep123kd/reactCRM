@@ -9,6 +9,7 @@ import RemoveRoundedIcon from '@material-ui/icons/RemoveRounded';
 import AddRoundedIcon from '@material-ui/icons/AddRounded';
 import Table from './Table';
 import ArrowDropDownRoundedIcon from '@material-ui/icons/ArrowDropDownRounded';
+import Footer from './Footer';
 
 const Home = () => {
 
@@ -79,6 +80,7 @@ const Home = () => {
             <Table />
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );

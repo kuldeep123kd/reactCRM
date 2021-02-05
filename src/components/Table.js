@@ -39,7 +39,7 @@ const Table = () => {
                 defaultChecked
                 color="primary"
               />
-              <CreateRoundedIcon />
+              <CreateRoundedIcon style={{color: "#007bff"}} />
             </td>
             <td>Maria Anders</td>
             <td>Germany</td>
@@ -57,7 +57,7 @@ const Table = () => {
                 defaultChecked
                 color="primary"
               />
-              <CreateRoundedIcon />
+              <CreateRoundedIcon style={{color: "#007bff"}} />
             </td>
             <td>Maria Anders</td>
             <td>Germany</td>
@@ -75,7 +75,7 @@ const Table = () => {
                 defaultChecked
                 color="primary"
               />
-              <CreateRoundedIcon />
+              <CreateRoundedIcon style={{color: "#007bff"}} />
             </td>
             <td>Maria Anders</td>
             <td>Germany</td>
@@ -93,7 +93,7 @@ const Table = () => {
                 defaultChecked
                 color="primary"
               />
-              <CreateRoundedIcon />
+              <CreateRoundedIcon style={{color: "#007bff"}} />
             </td>
             <td>Maria Anders</td>
             <td>Germany</td>
@@ -111,7 +111,7 @@ const Table = () => {
                 defaultChecked
                 color="primary"
               />
-              <CreateRoundedIcon />
+              <CreateRoundedIcon style={{color: "#007bff"}} />
             </td>
             <td>Maria Anders</td>
             <td>Germany</td>
@@ -129,7 +129,7 @@ const Table = () => {
                 defaultChecked
                 color="primary"
               />
-              <CreateRoundedIcon />
+              <CreateRoundedIcon style={{color: "#007bff"}} />
             </td>
             <td>Maria Anders</td>
             <td>Germany</td>
