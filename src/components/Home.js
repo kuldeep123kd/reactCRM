@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="homepage">
+      <div className="homepage" style={{height: window.outerHeight}}>
         <Header />
         <div className="homepage__content">
           <div className="homepage__content__menu">
@@ -54,19 +54,19 @@ const Home = () => {
           <div className="homepage__content__table">
             <div>
               <div className="row">
-                <div className="col-lg-1 px-0">
+                <div className="col-lg-1 col-md-2 px-0">
                   <h1>List View</h1>
                 </div>
-                <div className="col-lg-11">
+                <div className="col-lg-11 col-md-10">
                   <div className="homepage__content__table__inputs">
                     <div className="row">
-                      <div className="col-lg-9">
+                      <div className="col-lg-7 col-md-6">
                         <input type="text" placeholder="Search by Company Name, Conpaign Owner, Product" />
                       </div>
-                      <div className="col-lg-2">
+                      <div className="col-lg-3 col-md-4">
                         <p><ArrowDropDownRoundedIcon />Shared Contacts</p>
                       </div>
-                      <div className="col-lg-1">
+                      <div className="col-lg-2 col-md-2">
                         <p>
                           <span><ViewColumnRoundedIcon /></span>
                           <span><ViewColumnRoundedIcon /></span>

@@ -8,14 +8,14 @@ const Footer = () => {
     <footer className="">
       <div className="footer">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-4">
             <p>Version: V1.3.10</p>
           </div>
-          <div className="col-lg-4 text-center">
+          <div className="col-lg-4 col-md-4 text-center">
             <button className="footer__help" type="button">Helpdesk</button>
             <p>&copy; CopyRight 2014 - {(new Date().getFullYear())} DigiCollect - All rights reserved</p>
           </div>
-          <div className="col-lg-4 d-flex">
+          <div className="col-lg-4 col-md-4 d-flex">
             <div className="footer__options d-flex align-items-center">
               <p><HomeRoundedIcon /></p>
               <p><SearchRoundedIcon style={{color: "#FFFFFF"}} /></p>

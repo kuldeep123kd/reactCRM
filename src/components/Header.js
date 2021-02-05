@@ -23,19 +23,19 @@ const Header = () => {
       <nav>
         <div className="header">
           <div className="row align-items-center">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-3">
               <div className="header__logo">
                 <Link to="/">DigiCollect</Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-3">
               <div className="header__logo__crm text-center">
                 <h1>
                   DigiCRM
                 </h1>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="header__rightlist d-flex align-items-center">
                 <div className="header__icons d-flex align-items-center">
                   <div className="header__icons__background d-flex align-items-center justify-content-center">
